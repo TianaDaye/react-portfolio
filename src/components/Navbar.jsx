@@ -10,8 +10,23 @@ const Navbar = () => {
         <img className="mx-2 w-10" src={logo} alt='logo'/>
     </div>
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin/>
-        <FaGithub/>
+        <a 
+          href="https://www.linkedin.com/in/tiana-daye-627982191/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+          >
+          
+          <FaLinkedin/>
+        </a>
+        <a
+          href="https://github.com/TianaDaye"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <FaGithub/>
+        </a>
         <FaInstagram/>
     </div>
   </nav>

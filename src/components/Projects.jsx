@@ -57,7 +57,7 @@ const Projects = () => {
                 </div>
             ))}
         </div>
-        <div className="mt-8 justify-center">
+        <div className="mt-8 flex justify-center">
             <Graphics />
         </div>
         
