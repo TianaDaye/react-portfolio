@@ -21,6 +21,14 @@ const Projects = () => {
                         initial={{opacity: 0, x: -100}}
                         transition={{duration: 1}}
                         className="w-full lg:w-1/4">
+                        <a
+                            href={project.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mb-2 font-semibold text-purple-400 hover:underline"
+                        >
+                            <h6 className="mb-2 font-semibold">{project.title}</h6>
+                        </a>
                         <img
                             src={project.image}
                             width={150}
@@ -49,7 +57,7 @@ const Projects = () => {
                 </div>
             ))}
         </div>
-        <div className="mt-8">
+        <div className="mt-8 justify-center">
             <Graphics />
         </div>
         

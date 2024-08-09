@@ -62,6 +62,7 @@ export const PROJECTS = [
     description:
       "A fully functional church website with various features provided by the church",
     technologies: ["HTML", "CSS", "React", "Node.js"],
+    link: "https://www.clcconthemove.org/", 
   },
   {
     title: "Gyro Car Scheduling App",
