@@ -49,7 +49,7 @@ export const LEADERSHIP_EXPERIENCE = [
 {
   year: "Aug 2023 - May 2024",
   role: "Vice President",
-  organization: "The Pi Beta Chapter of Delta Sigma Theta Soroity. Incorporated",
+  organization: "The Pi Beta Chapter of Delta Sigma Theta Soroity, Incorporated",
   description: `I coordinated community service and outreach initiatives, overseeing program planning to effectively engage and support the community.`,
   technologies: ["Canva", "Adobe Premier Pro", "Adobe Illustrator", "Adobe Photoshop"],
 }, 
