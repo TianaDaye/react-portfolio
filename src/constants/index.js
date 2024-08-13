@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HEAD_CONTENT = `As a proactive and adaptable individual with a wealth of technical skills in UI design, a strong foundation in web development and graphic design, I am well-prepared to tackle complex projects and contribute valuable leadership to any design team.`;
 
-export const ABOUT_TEXT = `I am a proactive and adaptable designer with a passion for helping people and creating user-friendly designs. My expertise in tools like Figma, Adobe Suite, and video editing software allows me to take complex information and make it digestible for users, ultimately making their lives easier. With a wealth of technical skills and leadership experience, I have a proven track record in project management and agile methodology, making me a valuable contributor to any design team. Outside of programming and designing, I am a strong advocate for my community, enjoy event planning, and love watching a good movie or TV show.`;
+export const ABOUT_TEXT = ` I'm a dedicated and adaptable designer who is passionate about creating user-centric designs that make everyday experiences easier and better. I am able to break down complicated information into solutions that are easy to understand because I am proficient in tools like Figma, the Adobe Suite, and video editing software. I excel in project management and agile methodologies, consistently delivering outcomes that benefit both the team and the end user. I have leadership experience as well as a strong technical skill set. In addition to designing and programming, I enjoy being an active community advocate, organizing events, and unwinding with a good show or movie.`;
 
 export const WORK_EXPERIENCES = [
   {
