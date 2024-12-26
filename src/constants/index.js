@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HEAD_CONTENT = `As a proactive and adaptable individual with a wealth of technical skills in UI design, a strong foundation in web development and graphic design, I am well-prepared to tackle complex projects and contribute valuable leadership to any design team.`;
+export const HEAD_CONTENT = `Welcome to my portfolio! I’m a proactive and adaptable designer with a passion for creating impactful user experiences. With strong technical skills in UI design, web development, and graphic design, I’m ready to take on complex projects and bring thoughtful leadership to any design team.`;
 
-export const ABOUT_TEXT = ` I'm a dedicated and adaptable designer who is passionate about creating user-centric designs that make everyday experiences easier and better. I am able to break down complicated information into solutions that are easy to understand because I am proficient in tools like Figma, the Adobe Suite, and video editing software. I excel in project management and agile methodologies, consistently delivering outcomes that benefit both the team and the end user. I have leadership experience as well as a strong technical skill set. In addition to designing and programming, I enjoy being an active community advocate, organizing events, and unwinding with a good show or movie.`;
+export const ABOUT_TEXT = ` I’m Tiana Daye, a designer passionate about creating user-centered solutions that enhance experiences and empower communities. With a blend of creativity and technical skills, I focus on developing accessible, intuitive designs that address diverse needs. My experience spans UI design, project management, and leadership, where I’ve learned to approach challenges with resilience and adaptability. In addition to designing and programming, I’m an active community advocate who enjoys event planning and the business aspect of design thinking. When I’m not working on design projects, you can find me organizing events or unwinding with a good show or movie. I’m excited to continue growing as a designer and contributing to meaningful, impactful solutions.`;
 
 export const WORK_EXPERIENCES = [
   {
