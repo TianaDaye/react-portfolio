@@ -106,8 +106,6 @@ export const LEADERSHIP_EXPERIENCE = [
 }, 
 ];
 
-
-
 export const CONTACT = {
   phoneNo: "631-655-3881",
   email: "dayedtiana@gmail.com",
