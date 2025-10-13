@@ -24,7 +24,7 @@ export const PROJECTS = [
     description: 
     "YoungCrafters is a mentorship platform designed to foster meaningful connections between mentors and mentees. Whether you're looking to build new relationships or bring your existing mentorship community onboard, YoungCrafters offers the tools you need. You can also integrate your current platform and seamlessly manage your data and users through our comprehensive services.", 
     technologies: ["Figma"], 
-    link: "https://www.figma.com/proto/NRGckVAdEE614VZ8EehRoo/YoungCrafters?node-id=760-1549&t=MboiLJH7dlNl052g-1&scaling=scale-down&content-scaling=fixed&page-id=760%3A606&starting-point-node-id=760%3A611&show-proto-sidebar=1",
+    link: "https://www.figma.com/proto/NRGckVAdEE614VZ8EehRoo/YoungCrafters?node-id=3033-2800&p=f&t=MmVsKmTRd3qUfyol-1&scaling=contain&content-scaling=fixed&page-id=3031%3A954",
 
   },
   {
