@@ -15,11 +15,7 @@ export function ProjectCard({ title, description, category, imageUrl, tags, inde
 
   return (
     <CardWrapper>
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-100px" }}
-        transition={{ duration: 0.6, delay: index * 0.15 }}
+      <div
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         className="group cursor-pointer"
@@ -87,7 +83,7 @@ export function ProjectCard({ title, description, category, imageUrl, tags, inde
             ))}
           </div>
         </div>
-      </motion.div>
+      </div>
     </CardWrapper>
   );
 }
