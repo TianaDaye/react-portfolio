@@ -8,18 +8,18 @@ export function Intro() {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 lg:px-12 pt-20">
+    <section className="min-h-screen flex items-center justify-start px-6 lg:px-12 pt-20">
       <div className="max-w-5xl w-full">
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: [0, 1, 0] }}
-          transition={{ delay: 1.2, repeat: Infinity, duration: 1.5 }}
-          className="absolute bottom-12 left-1/2 -translate-x-1/2"
->
+          initial={{ opacity: 0, x: -60 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
+          className="space-y-8"
+        >
           <div className="space-y-4">
             <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              initial={{ opacity: 0, x: -40 }}
+              animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.4 }}
               className="text-purple-600 uppercase tracking-wider text-sm font-semibold"
             >
@@ -32,8 +32,8 @@ export function Intro() {
           </div>
           
           <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            initial={{ opacity: 0, x: -40 }}
+            animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.6 }}
             className="text-xl text-neutral-700 max-w-2xl leading-relaxed font-medium"
           >
@@ -42,8 +42,8 @@ export function Intro() {
           </motion.p>
 
           <motion.button
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            initial={{ opacity: 0, x: -40 }}
+            animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.8 }}
             onClick={scrollToProjects}
             className="group flex items-center gap-3 text-neutral-900 mt-8 hover:gap-4 transition-all font-medium"
@@ -54,11 +54,10 @@ export function Intro() {
         </motion.div>
       </div>
 
-      {/* Scroll indicator */}
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.2, repeat: Infinity, repeatType: "reverse", duration: 1.5 }}
+        animate={{ opacity: [0, 1, 0] }}
+        transition={{ delay: 1.2, repeat: Infinity, duration: 1.5 }}
         className="absolute bottom-12 left-1/2 -translate-x-1/2"
       >
         <div className="w-6 h-10 border-2 border-purple-400 rounded-full flex justify-center pt-2">
