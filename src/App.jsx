@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 import { useEffect, useState } from 'react';
 import { Intro } from './components/Intro';
 import { Projects } from './components/Projects';
-import Technologies from './components/Technologies';
+import { Technologies } from './components/Technologies';
 import { Contact } from './components/Contact';
 
 export default function App() {
