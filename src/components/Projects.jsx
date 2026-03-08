@@ -35,7 +35,7 @@ const projects = [
     imageUrl: youngcraftersImage,
     tags: ["Product Design", "AI", "EdTech", "Startup"],
     problem: "Mentors and mentees are forced to juggle multiple disconnected tools like Zoom, iMessage, and Google Calendar just to maintain a single mentorship relationship. The friction makes meaningful mentorship harder to sustain.",
-    solution: "As CEO and co-founder, I led the design of a unified platform consolidating all mentorship needs in one place. YoungCrafters allows existing programs to migrate onto the platform and supports participants with guidebooks and dedicated liaisons, all completely free."
+    solution: "As CMO, I led the design of a unified platform consolidating all mentorship needs in one place. YoungCrafters allows existing programs to migrate onto the platform and supports participants with guidebooks and dedicated liaisons, all completely free."
   },
   {
     title: "Figma App Redesign",
