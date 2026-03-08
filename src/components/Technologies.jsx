@@ -1,6 +1,7 @@
 import { FaFigma, FaCss3 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiAdobe, SiAdobepremierepro, SiXcode, SiJirasoftware } from "react-icons/si";
+import { TbBrandAdobeIllustrator, TbBrandAdobePremier } from "react-icons/tb";
+import { SiXcode, SiJirasoftware } from "react-icons/si";
 import { motion } from "motion/react";
 
 const iconVariants = (duration) => ({
@@ -42,10 +43,10 @@ export function Technologies() {
                 <FaCss3 className="text-7xl text-blue-600"/>
             </motion.div>
             <motion.div variants={iconVariants(6)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiAdobe className="text-7xl text-red-500"/>
+                <TbBrandAdobeIllustrator className="text-7xl text-orange-500"/>
             </motion.div>
             <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiAdobepremierepro className="text-7xl text-purple-400"/>
+                <TbBrandAdobePremier className="text-7xl text-purple-400"/>
             </motion.div>
             <motion.div variants={iconVariants(4.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiXcode className="text-7xl text-blue-800"/>
