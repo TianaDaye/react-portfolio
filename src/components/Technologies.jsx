@@ -1,6 +1,6 @@
 import { FaFigma } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiAdobeillustrator } from "react-icons/si";
+import { SiAdobeIllustrator } from "react-icons/si";
 import { SiAdobephotoshop } from "react-icons/si";
 import { SiAdobepremierepro } from "react-icons/si";
 import { SiXcode } from "react-icons/si";
@@ -64,7 +64,7 @@ const Technologies = () => {
                 initial="initial"
                 animate="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiAdobeillustrator className="text-7xl text-orange-500"/>
+                <SiAdobeIllustrator className="text-7xl text-orange-500"/>
             </motion.div>
             <motion.div 
                 variants={iconVariants(2.5)}
