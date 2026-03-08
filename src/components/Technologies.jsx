@@ -1,8 +1,6 @@
 import { FaFigma } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { FaCss3 } from "react-icons/fa";
 import { SiAdobeillustrator } from "react-icons/si";
-import { SiAdobeindesign } from "react-icons/si";
 import { SiAdobephotoshop } from "react-icons/si";
 import { SiAdobepremierepro } from "react-icons/si";
 import { SiXcode } from "react-icons/si";
